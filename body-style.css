@@ -1,0 +1,82 @@
+.note_container{
+    background-color: rgb(200, 200, 200);
+    height: 620px;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.141);
+    position: fixed;
+    
+}
+
+.normal_container{
+    background-color: rgb(174, 174, 174);
+    height: 620px;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.141);
+
+}
+
+.fp{
+    height: 70px;
+    width:70px;
+    vertical-align: middle;
+    border-radius: 100%;
+    border-style:solid;
+    border-color: rgb(80, 80, 80);
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 10%);
+
+}
+
+.datos{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    padding-top: 10%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+
+}
+
+.post{
+    background-color: rgb(226, 226, 226);
+    border-radius: 2%;
+    margin-top: 5%;
+}
+
+.fp-post{
+    width:10%;
+    vertical-align: left;
+    height: auto;
+    max-width: 100%;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: rgb(80, 80, 80);
+    position: relative;
+    left: 7%;
+    transform: translate(-50%, 20%);
+}
+
+.post-imagen{
+    position: relative;
+    margin-top: 3%;
+    left: 50%;
+    max-width: 98%;
+    height: auto;
+    transform: translate(-50%, 0%);
+    border-radius: 2%;
+    margin-bottom: 1%;
+}
+
+.post-title{
+    position: relative;
+    display: inline;
+    left: 3%;
+    top: 15px;
+    text-align: center;
+}

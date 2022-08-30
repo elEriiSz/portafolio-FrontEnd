@@ -10,14 +10,16 @@
 
     <!-- Bootstrap CSS -->
     <link href="dist/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="navbar-style.css" rel="stylesheet">
+    <link href="body-style.css" rel="stylesheet">
     <title>Xpose</title>
 
   </head>
 
-  <body>
+  <body style="background-color: rgb(174, 174, 174);">
+    <!-- Navbar -->
     <ul class="custom_navbar">
-      <li class="navbar-element"><img src="images/Dark Sign.ico" height="30px" width="30px" style="position: relative; bottom: 1px;"><a href="#" class="brand">Xpose</a></li>
+      <li class="navbar-element"><img src="images/Dark Sign.ico" height="30px" width="30px" style="position: relative; bottom: 1px;" type="button" href="#"><a href="#" class="brand">Xpose</a></li>
       <li class="navbar-element"><a class="custom_btn" href="#">Profile</a></li>
       <li class="navbar-element"><a class="custom_btn" href="#" style="background-color: rgb(45, 180, 60); border-bottom-color: rgb(45, 180, 60) ;">Games</a></li>
       <li class="navbar-element" style="float: right;">
@@ -25,12 +27,44 @@
           <label class="search_btn" for="checkbox" style="background-color: rgb(45, 60, 180); border-bottom-color: rgb(45, 60, 180); bottom: 6px;">Search</label>
           <input id="checkbox" type="checkbox" style="display: none;"/>
           <div class="dropdown-content">
-            <input id="GET-name" type="text" name="name">
+            <input id="GET-thing" type="text" name="thing">
+            <input id="search" type="button" name="search-thing" value="Search">
           </div>
         </div>
       </li>
-      
-    </ul>    
+    </ul>
+
+    <!-- Body -->
+    <div class="container-fluid">
+      <div class="row align-items-start">
+        <div class="col-10" style="background-color: rgb(174, 174, 174); height: 640px;">
+          <div class="normal_container">
+            <div class="post">
+              <img class="fp-post" src="images/perfil.jpg">
+              <h2 class="post-title">Art made by me of #jhin </h2>
+              <img class="post-imagen" src="images/Jhin prueba.jpg">
+            </div>
+            <div class="post">
+              <img class="fp-post" src="images/perfil.jpg">
+              <h2 class="post-title"> #jhin </h2>
+              <img class="post-imagen" src="images/Jhin prueba.jpg">
+            </div>
+          </div>
+        </div>
+        <div class="col-2" style="background-color: rgb(174, 174, 174); min-width: 15%;">
+          <div class="note_container" >
+            <div class="perfil">
+              <img class="fp" src="images/perfil.jpg">
+              <h3 class="datos">Eric Szuka</h3>
+              <p class="datos" style="top: -15px;">Edad:19 </p>
+              <p class="datos" style="top:-45px;">Altura:1.96</p>
+              <p class="datos" style="top: -72px; line-height: 120%;">Conocimientos: Python, C, Bash, HTML, CSS, Blender, Photoshop</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <!-- Bootstrap JS -->
     <script src="dist/bootstrap/js/bootstrap.bundle.min.js"></script>
 

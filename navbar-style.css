@@ -1,0 +1,98 @@
+.custom_navbar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 15px;
+    background-color: rgb(44, 44, 44);
+    position: sticky; 
+    top: 0;
+    z-index: 100;
+}
+.navbar-element {
+    display: inline;
+    margin-right: 10px;
+    
+}
+.custom_btn {
+    background-color: rgb(180, 60, 45);
+    padding: 8px;
+    border-radius: 6%;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(250, 250, 250, 0.850);
+    border-bottom-style:outset;
+    border-bottom-color: rgb(180, 60, 45) ;
+    border-bottom-left-radius: 6%;
+    border-bottom-right-radius: 6%;
+    border-bottom-width: 5px;
+}
+
+.custom_btn:active{
+    color:rgba(250, 250, 250, 0.500);
+    border-style: none;
+    position: relative;
+    top: 5px;
+}
+
+.custom_btn:hover{
+    color:rgba(250, 250, 250, 0.500);
+}
+
+.brand  {
+    position: relative;
+    text-align: center;
+    right: 2px;
+    top: 1.5px;
+    text-decoration: none;
+    color: rgba(250, 250, 250, 0.850);
+    font-style: italic;
+
+}
+
+.brand:hover {
+    color:azure;
+}
+
+.dropdown{
+
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 35px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#checkbox:checked + .dropdown-content{
+    display: inline-flex;
+}
+
+.search_btn {
+    background-color: rgb(180, 60, 45);
+    padding: 7px;
+    border-radius: 6%;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(250, 250, 250, 0.850);
+    border-bottom-style:outset;
+    border-bottom-color: rgb(180, 60, 45) ;
+    border-bottom-left-radius: 6%;
+    border-bottom-right-radius: 6%;
+    border-bottom-width: 5px;
+}
+
+.search_btn:active{
+    color:rgba(250, 250, 250, 0.500);
+    border-style: none;
+    position: relative;
+    top: 0px;
+}
